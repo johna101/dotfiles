@@ -4,6 +4,8 @@ tap 'homebrew/cask-eid'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'isen-ng/dotnet-sdk-versions' # For Dotnet versions
+
 
 # Binaries
 # brew 'awscli'
@@ -21,6 +23,7 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'trash' # Manage the Trash bin
 brew 'tree' # List directories in a tree structure
 brew 'zlib' # Needed for Memcached
+
 
 # Development
 # brew 'php'
@@ -40,6 +43,16 @@ cask 'jetbrains-toolbox'
 cask 'dotnet-sdk'
 cask 'gitkraken'
 cask 'visual-studio-code'
+
+cask 'iterm2'
+cask 'microsoft-azure-storage-explorer'
+cask 'microsoft-word'
+cask 'microsoft-excel'
+cask 'onedrive'
+cask 'dropbox'
+
+cask 'dotnet-sdk'
+cask 'dotnet-sdk-2.2.100'
 
 cask 'aerial'
 cask 'alfred'
