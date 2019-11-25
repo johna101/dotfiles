@@ -51,8 +51,9 @@ cask 'microsoft-excel'
 cask 'onedrive'
 cask 'dropbox'
 
-cask 'dotnet-sdk'
+cask 'dotnet-sdk-2.1.800'
 cask 'dotnet-sdk-2.2.100'
+cask 'dotnet-sdk'
 
 cask 'aerial'
 cask 'alfred'
