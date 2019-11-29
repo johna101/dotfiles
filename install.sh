@@ -34,6 +34,9 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# Add SF Mono fonts from Terminal App so that they can be accessed system wide
+# This path is specific to Catalina I think
+cp /System/Applications/Utilities/Terminal.app/Contents/Resources/Fonts/*.otf ~/Library/Fonts/
 # Set macOS preferences
 # We will run this last because this will reload the shell
 # source .macos
