@@ -83,6 +83,10 @@ cask 'slack'
 #cask 'virtualbox-extension-pack'
 cask 'vlc'
 
+cask 'azure-data-studio'
+cask 'visual-studio'
+cask 'microsoft-edge'
+
 # Quicklook
 cask 'qlcolorcode'
 cask 'qlmarkdown'
